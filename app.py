@@ -39,9 +39,9 @@ app.layout = html.Div(children=[
         data=df.to_dict('records'),
     ),
 
-    html.A('Code on Github', href=githublink),
+    html.A('Code on Github', href='https://github.com/regina-avila/dash-table-example/'),
     html.Br(),
-    html.A("Data Source", href=sourceurl),
+    #html.A("Data Source", href=sourceurl),
     html.Br(),
     html.A("Plotly Dash", href='https://plot.ly/python/pie-charts/')
     ]
